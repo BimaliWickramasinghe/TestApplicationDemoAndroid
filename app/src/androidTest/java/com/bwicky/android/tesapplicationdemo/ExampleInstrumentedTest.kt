@@ -16,50 +16,5 @@ import org.junit.Assert.*
 @RunWith(AndroidJUnit4::class)
 class ExampleInstrumentedTest {
     //Test case for adding two positive numbers
-    @Test
-    fun additionOfTwoPositiveNumbersShouldGiveTheCorrectSummation() {
-        val value1 = 4
-        val value2 = 1
-        val sum = value1 + value2
-        assertEquals(5, sum)
-    }
 
-    //Test case for adding two negative numbers
-    @Test
-    fun additionOfTwoNegativeNumbersShouldGiveTheCorrectSummation() {
-        val value1 = -4
-        val value2 = -1
-        val sum = value1 - value2
-        assertEquals(-3, sum)
-    }
-
-    //Test case for adding a positive number and a negative number
-    @Test
-    fun additionOfTwoPositiveAndNegativeNumbersShouldGiveTheCorrectSummationAndSignOfTheLargestNumber() {
-        val value1 = 4
-        val value2 = -1
-        val sum = value1 - value2
-        assertEquals(3, sum)
-    }
-
-    //Test case for a String
-    @Test
-    fun stringShouldMatchWithTheGivenString() {
-        val myString = "My String"
-        assertEquals("My String", myString)
-    }
-
-    //Test case for an Object
-    @Test
-    fun stringShouldMatchW() {
-        val myString = "My String"
-        assertEquals("My String", myString)
-    }
-
-    //Test case for adding a positive number and a negative number
-    @Test
-    fun stringShouldMatchWithTeGivenString() {
-        val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.bwicky.android.tesapplicationdemo", appContext.packageName)
-    }
 }
