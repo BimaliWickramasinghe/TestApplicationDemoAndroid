@@ -1,7 +1,6 @@
 ![TestCaseScreenshot](https://user-images.githubusercontent.com/48413830/131989661-94fba016-10e9-45df-a616-012f5cdcac4d.png)
-# TestApplicationDemoAndroid
+# TestApplicationDemoAndroidTestCases
 
-##Test Cases
 #Numbers
 --fun addition_ofTwo_Negative_Numbers_Should_Give_aPositive_Summation()
 --fun addition_ofTwo_Negative_Numbers_Should_Give_aNegative_Summation()
